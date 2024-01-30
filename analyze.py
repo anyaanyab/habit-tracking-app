@@ -5,16 +5,16 @@ def view_habits(db):
     print(display_habits(db)) 
 
 def view_habits_frequency(db, frequency):
-    #Display all habits based on their frequency
+    # Display all habits based on their frequency
     print(display_habits_frequency(db, frequency))
 
 def view_longest_streak(db):
-    # Displays the longest streak of all habits
+    # Display the longest streak of all habits
     longest_streak = display_longest_streak(db)
     print(f"\n{longest_streak} days is the longest streak of all habits.")
     
 def view_longest_streak_habit(db, name):  
-    # Displays the longest streak of a given habit
+    # Display the longest streak of a given habit
     checking = check(db, name)
     if checking:
         cur = db.cursor()
@@ -30,6 +30,6 @@ def view_longest_streak_habit(db, name):
         print("\nHabit not found.")
 
 def view_struggling_habit(db):
-    # Displays a habit with the least streak number
+    # Display a habit with the least streak number
     struggling_habit = display_struggling_habit(db)
     print(f"\n{struggling_habit} is the habit you are struggling the most with. Keep it up!")
