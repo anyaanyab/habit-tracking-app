@@ -6,7 +6,7 @@ from db import *
 
 
 class TestHabit:
-  # Class for testing main functions of the habit tracking app
+  # Class for testing main most important functions of the habit tracking app
 
   def setup_method(self):
     # Create a testing database
