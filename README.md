@@ -1,5 +1,3 @@
-# CODE IS NOT YET DONE COMPLETELY
-
 # Habit Tracking App
 
 A simple habit tracking app to help you build good habits.
@@ -18,7 +16,7 @@ Habit tracking apps are widely used for monitoring different habits people want 
 ## Requirements
 
 For using the habit tracker please install the required packages (pytest):
-    pip install -u pytest
+    pip install pytest
 
 ## Installation
 
@@ -50,7 +48,6 @@ To create a new habit, enter "1". After that, you will be asked to enter the new
     
     Enter habit name: Run 1 km
     Enter habit frequency (daily/weekly): daily
-    Enter start date (DD-MM-YYYY): 01-01-2024
     
     The habit was added to the list.
 
