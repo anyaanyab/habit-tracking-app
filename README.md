@@ -42,7 +42,7 @@ This will open the main menu where you can navigate through different functional
     Enter choice: 
 
 
-To create a new habit, enter "1". After that, you will be asked to enter the new habit's name, desired frequency and start date: 
+To create a new habit, enter "1". After that, you will be asked to enter the new habit's name and the desired frequency: 
 
     Enter choice: 1
     
@@ -51,7 +51,7 @@ To create a new habit, enter "1". After that, you will be asked to enter the new
     
     The habit was added to the list.
 
-To track a habit, enter "2". By entering the habit name, the habit will be tracked with today's date and time:
+To track a habit, enter "2". By entering the habit name, the habit will be tracked with the current date and time:
 
     Enter choice: 2
     
